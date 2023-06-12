@@ -264,6 +264,8 @@ main .page-content .main-content .just-in-content .just-in-wrapper .just-in-smal
 main .page-content .main-content .just-in-content .just-in-wrapper .just-in-small .post-title h3 {
   color: #6b6969;
   font-size: 1rem;
+  height: 60px;
+  overflow: hidden;
 }
 main .page-content .main-content .just-in-content .just-in-wrapper .just-in-small .meta-share {
   display: flex;
@@ -414,6 +416,8 @@ main .video-section .side-videos .side-video-text {
   left: 10px;
 }
 main .video-section .side-videos .side-video-text h3 {
+  height: 40px;
+  overflow: hidden;
   color: #ECECEC;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
@@ -451,7 +455,7 @@ main .opinion-wrapper .opinion-main-img img {
 }
 main .opinion-wrapper .opinion-main .opinion-info {
   position: absolute;
-  bottom: 10px;
+  bottom: 30px;
   left: 20px;
   color: white;
 }
@@ -459,6 +463,10 @@ main .opinion-wrapper .opinion-main .opinion-info .opinion-title h1 {
   font-size: 24px;
   overflow: hidden;
   height: 56px;
+}
+main .opinion-wrapper .opinion-main .opinion-info .meta-share {
+  left: -15px;
+  position: absolute;
 }
 main .opinion-wrapper .opinion-sub {
   height: 300px;
@@ -469,6 +477,7 @@ main .opinion-wrapper .opinion-sub-img img {
   height: 210px;
 }
 main .opinion-wrapper .opinion-sub-info {
+  position: relative;
   padding: 10px 10px;
   height: 90px;
 }
@@ -477,6 +486,10 @@ main .opinion-wrapper .opinion-sub-info .opinion-title {
   overflow: hidden;
   font-size: 16px;
   color: #646464;
+}
+main .opinion-wrapper .opinion-sub-info .meta-share {
+  position: absolute;
+  left: -5px;
 }
 main .opinion-wrapper .opinion-sub-info .meta-share .post-numbers i {
   color: #646464;
