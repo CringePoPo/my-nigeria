@@ -111,6 +111,79 @@ a {
   height: 175px !important;
 }
 
+.sub-sports {
+  background-color: #FF0001 !important;
+}
+
+.sports-drop-content {
+  top: -68px !important;
+}
+
+.bus-drop-content {
+  top: -136px !important;
+}
+
+.sub-bus {
+  background-color: #04A9E9 !important;
+}
+
+.sub-ent {
+  background-color: #963A8C !important;
+}
+
+.ent-drop-content {
+  top: -204px !important;
+}
+
+.africa-drop-content {
+  top: -272px !important;
+}
+
+.sub-africa {
+  background-color: #FDBC0A !important;
+}
+
+.wall-drop-content {
+  top: -340px !important;
+}
+
+.sub-wall {
+  background-color: #F95913 !important;
+}
+
+.country-drop-content {
+  top: -408px !important;
+}
+
+.sub-country {
+  background-color: #c7ab8c !important;
+}
+
+.icons span:nth-child(1) i:hover {
+  color: #25D366;
+  border: 2px solid #25D366;
+  background-color: white;
+  transition: all 0.3s;
+}
+.icons span:nth-child(2) i:hover {
+  color: #1DA1F2 !important;
+  border: 2px solid #1DA1F2;
+  background-color: white;
+  transition: all 0.3s;
+}
+.icons span:nth-child(3) i:hover {
+  color: #4267B2;
+  border: 2px solid #4267B2;
+  transition: all 0.3s;
+  background-color: white;
+}
+.icons span:nth-child(4) i:hover {
+  color: #FF0000;
+  background-color: white;
+  transition: all 0.2s;
+  border: 2px solid #FF0000;
+}
+
 .nav-bg {
   background-color: #018553;
 }
@@ -143,6 +216,7 @@ a {
 .all-categories .categories {
   display: flex;
   justify-content: space-around;
+  position: relative;
 }
 .all-categories .categories:hover ~ svg:nth-child(1) {
   background-color: red;
@@ -203,24 +277,111 @@ a {
 .all-categories .categories .news-category:nth-child(8):hover .bar1, .all-categories .categories .news-category:nth-child(8):hover .bar2, .all-categories .categories .news-category:nth-child(8):hover .bar3, .all-categories .categories .news-category:nth-child(8):hover .bar4 {
   background-color: #4AAA84 !important;
 }
-.all-categories .categories .news-category .dis .bar1, .all-categories .categories .news-category .bar2, .all-categories .categories .news-category .bar3, .all-categories .categories .news-category .bar4 {
+.all-categories .categories .news-category .bar1, .all-categories .categories .news-category .bar2, .all-categories .categories .news-category .bar3 {
   width: 25px;
   height: 3px;
   background-color: #333;
   margin: 3px 0;
   transition: 0.4s;
 }
-.all-categories .categories .news-category .change .bar1 {
+.all-categories .categories .disc:hover > .discover-container > .bar1 {
   opacity: 0;
 }
-.all-categories .categories .news-category .change .bar2 {
+.all-categories .categories .disc:hover > .discover-container > .bar2 {
   transform: translate(0, 0px) rotate(45deg);
 }
-.all-categories .categories .news-category .change .bar3 {
+.all-categories .categories .disc:hover > .discover-container > .bar3 {
   transform: translate(0, -6px) rotate(-45deg);
 }
-.all-categories .categories .news-category .change .bar4 {
-  opacity: 0;
+.all-categories .dropdown-menu {
+  position: absolute;
+  top: 69px;
+  background-color: #E8E2E2;
+  width: 100%;
+  height: 600px;
+  z-index: 200;
+}
+.all-categories .dropdown-menu-content {
+  display: flex;
+}
+.all-categories .dropdown-menu-content .dropdown-menu-category {
+  background-color: #D0CACA;
+  height: 600px;
+}
+.all-categories .dropdown-menu-content .news-cat {
+  position: relative;
+}
+.all-categories .dropdown-menu-content .news-cat:hover .dropdown-content {
+  display: block;
+}
+.all-categories .dropdown-menu-content .news-cat::hover + .news-category::before {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 15px;
+  z-index: 100;
+  border-top: 10px solid transparent;
+  border-right: 20px solid #555;
+  border-bottom: 10px solid transparent;
+}
+.all-categories .dropdown-menu-content .news-cat .news-category {
+  padding: 24px 45px;
+  justify-content: start;
+}
+.all-categories .dropdown-menu-content-category-content {
+  display: flex;
+}
+.all-categories .dropdown-menu-content-category-content .content {
+  position: relative;
+  width: 348.3px;
+}
+.all-categories .dropdown-menu-content-category-content .content:nth-child(odd) {
+  background-color: #ddd;
+}
+.all-categories .dropdown-content {
+  display: none;
+  position: absolute;
+  left: 214px;
+  z-index: 10;
+  height: 600px;
+  z-index: 10;
+  width: 1031px;
+  top: 0;
+  background: wheat;
+  transition: all 0.2s;
+}
+.all-categories .dropdown-content .drop-wrapper {
+  display: flex;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+.all-categories .dropdown-content .drop-wrapper .b-dark {
+  border-right: 2px solid #D0CACA;
+}
+.all-categories .dropdown-content .drop-wrapper .info-drop {
+  width: 350px;
+  height: 600px;
+}
+.all-categories .dropdown-content .drop-wrapper .info-drop .sub {
+  background-color: #70A703;
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-left: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+.all-categories .dropdown-content .drop-wrapper .info-drop ul {
+  padding: 15px 0;
+}
+.all-categories .dropdown-content .drop-wrapper .info-drop ul li {
+  font-size: 20px;
+  list-style: none;
+  padding: 8px 35px;
+}
+.all-categories .dropdown-content .drop-wrapper .info-drop ul li a {
+  text-decoration: none;
+  color: #000002;
 }
 
 main {
