@@ -613,10 +613,18 @@ main .video-section .main-video .video .meta-info-vid .left .meta-info p span {
 main .video-section .main-video .video .meta-info-vid .right {
   top: 0;
   right: 0;
+  overflow: hidden;
   position: relative;
-  height: 150px;
+  height: 100%;
   width: 95px;
-  background-color: rgba(1, 1, 1, 0.3);
+}
+main .video-section .main-video .video .meta-info-vid .right .iconsbg {
+  height: 430px;
+  /* width: inherit; */
+  box-shadow: 0 0 40px 64px rgba(0, 0, 0, 0.37);
+  position: absolute;
+  top: 0px;
+  right: 13px;
 }
 main .video-section .main-video .video .meta-info-vid .right .meta-share {
   display: flex;
@@ -624,6 +632,7 @@ main .video-section .main-video .video .meta-info-vid .right .meta-share {
   height: 100%;
   padding: 0 0.4rem;
   gap: 20px;
+  position: relative;
   justify-content: flex-start;
 }
 main .video-section .main-video .video .meta-info-vid .right .meta-share span {
