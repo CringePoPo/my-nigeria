@@ -85,7 +85,7 @@ a {
 .meta-info p {
   border-radius: 20px;
   color: #010101;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -228,7 +228,6 @@ a {
   display: flex;
   justify-content: center;
   gap: 10px;
-  width: 100%;
   padding: 1.5rem 0;
   height: auto;
   text-align: center;
@@ -490,7 +489,7 @@ main .page-content .main-content .just-in-content .just-in-wrapper .just-in-smal
 main .page-content .main-content .just-in-content .just-in-wrapper .just-in-small .meta-info p {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 }
 main .page-content .main-content .just-in-content .just-in-wrapper .just-in-small .meta-info span {
   padding: 0.3rem;
