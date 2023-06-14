@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Navigation / Globe">
-<path id="Vector" d="M3 12H8M3 12C3 16.9706 7.02944 21 12 21M3 12C3 7.02944 7.02944 3 12 3M8 12H16M8 12C8 16.9706 9.79086 21 12 21M8 12C8 7.02944 9.79086 3 12 3M16 12H21M16 12C16 7.02944 14.2091 3 12 3M16 12C16 16.9706 14.2091 21 12 21M21 12C21 7.02944 16.9706 3 12 3M21 12C21 16.9706 16.9706 21 12 21" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" class="svg" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:66.6667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:133.3333;}
+</style>
+<g id="Navigation__x2F__Globe">
+	<path id="Vector" class="st0" d="M35,400h202.8 M35,400c0,201.6,163.4,365,365,365 M35,400C35,198.4,198.4,35,400,35 M237.8,400
+		h324.4 M237.8,400c0,201.6,72.6,365,162.2,365 M237.8,400c0-201.6,72.6-365,162.2-365 M562.2,400H765 M562.2,400
+		c0-201.6-72.6-365-162.2-365 M562.2,400c0,201.6-72.6,365-162.2,365 M765,400c0-201.6-163.4-365-365-365 M765,400
+		c0,201.6-163.4,365-365,365"/>
 </g>
 </svg>
