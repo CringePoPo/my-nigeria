@@ -1,14 +1,1 @@
-// //   Variables
-let hoverStates = document.querySelectorAll('.news-drop');
-
-let dropDowns = document.querySelectorAll('.dropdown-content');
-
-// Looping through the hoverstates
-for (let i = 0; i < hoverStates.length; i++) {
-  hoverStates[i].addEventListener("mouseenter",function() {
-    for (let i = 0; i < hoverStates.length;i++) {
-      dropDowns[i].style.display = "none";
-    }
-    dropDowns[i].style.display = "flex";
-  });
-}
+let hoverStates=document.querySelectorAll(".news-drop"),dropDowns=document.querySelectorAll(".dropdown-content");for(let e=0;e<hoverStates.length;e++)hoverStates[e].addEventListener("mouseenter",(function(){for(let e=0;e<hoverStates.length;e++)dropDowns[e].style.display="none";dropDowns[e].style.display="flex"}));
