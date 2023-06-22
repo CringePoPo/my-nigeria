@@ -111,7 +111,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 0px;
-  padding: 0 10px 0 0;
+  padding: 4px 10px 0 0;
   position: relative;
 }
 .latest-posts-main-section .latest-posts .sub-section .latest-wrapper .just-in-small .post-info .post-title h3 {
@@ -124,7 +124,7 @@ a {
   display: flex;
   position: absolute;
   left: -15px;
-  bottom: 0px;
+  bottom: -2px;
 }
 .latest-posts-main-section .latest-posts .sub-section .latest-wrapper .just-in-small .post-info .meta-share span .fa-clr {
   font-size: 0.7rem;
