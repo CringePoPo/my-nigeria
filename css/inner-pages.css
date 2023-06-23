@@ -2,6 +2,10 @@ a {
   color: black;
 }
 
+.search-btn {
+  position: absolute;
+}
+
 .africa-clr {
   color: #fdbc0a;
 }
