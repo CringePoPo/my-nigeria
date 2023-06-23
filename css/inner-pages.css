@@ -9,6 +9,14 @@ a {
   left: 20px;
 }
 
+.africa-clr {
+  color: #fdbc0a;
+}
+
+.news-clr {
+  color: #70a703;
+}
+
 .news-inner .africa-inner a p, .news-inner .inner a p {
   border-right: 15px solid #70a703 !important;
 }
@@ -168,6 +176,7 @@ a {
   display: flex;
   gap: 5px;
   flex-direction: column;
+  padding: 7px 10px 0 0;
 }
 .just-in-small .post-info .meta-share {
   position: absolute;
