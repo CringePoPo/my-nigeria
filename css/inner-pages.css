@@ -104,8 +104,9 @@ a {
 }
 .latest-posts-main-section .latest-posts .large-content .large-minor .opinion-sub-info {
   position: relative;
-  padding: 10px;
+  padding: 5px 10px 10px 10px;
   display: flex;
+  gap: 5px;
   flex-direction: column;
 }
 .latest-posts-main-section .latest-posts .large-content .large-minor .opinion-sub-info .opinion-title h2 {
@@ -118,7 +119,7 @@ a {
 .latest-posts-main-section .latest-posts .large-content .large-minor .opinion-sub-info .meta-share {
   position: absolute;
   left: -5px;
-  bottom: -12px;
+  bottom: -13px;
 }
 .latest-posts-main-section .latest-posts .large-content .large-minor .opinion-sub-info .meta-share .post-numbers i {
   color: #646464;
