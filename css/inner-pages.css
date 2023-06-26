@@ -241,4 +241,13 @@ a {
 }
 .more-content-block .side-block .side-block-wrapper .just-in-small {
   width: 100%;
+}
+
+.leaderboard-ad {
+  display: grid;
+  place-items: center;
+}
+.leaderboard-ad img {
+  width: 970px;
+  height: 90px;
 }/*# sourceMappingURL=inner-pages.css.map */
