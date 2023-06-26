@@ -1,3 +1,7 @@
+body {
+  position: relative;
+}
+
 a {
   color: black;
 }
@@ -58,17 +62,17 @@ a {
 }
 .latest-posts-main-section .latest-posts .large-content .large-main-img {
   position: relative;
-  height: 360px;
+  height: 300px;
 }
 .latest-posts-main-section .latest-posts .large-content .large-main-img img {
   width: 550px;
-  height: 360px;
+  height: 300px;
 }
 .latest-posts-main-section .latest-posts .large-content .large-main-info {
   position: absolute;
-  bottom: 20px;
+  bottom: 0;
   left: 20px;
-  z-index: 2;
+  z-index: 1;
   padding: 10px;
 }
 .latest-posts-main-section .latest-posts .large-content .large-main-info .info-title h1 {
@@ -92,29 +96,29 @@ a {
 }
 .latest-posts-main-section .latest-posts .large-content .large-minor > div {
   width: 201.6px;
-  height: 283px;
+  height: 207px;
   background-color: #fff;
 }
 .latest-posts-main-section .latest-posts .large-content .large-minor .opinion-sub-img img {
-  height: 125px;
+  height: 105px;
 }
 .latest-posts-main-section .latest-posts .large-content .large-minor .opinion-sub-info {
   position: relative;
   padding: 10px;
   display: flex;
-  gap: 15px;
   flex-direction: column;
 }
 .latest-posts-main-section .latest-posts .large-content .large-minor .opinion-sub-info .opinion-title h2 {
-  font-size: 16px;
+  font-size: 15px;
   color: #646464;
-  height: 71px;
+  height: 55px;
   overflow: hidden;
+  font-weight: 400;
 }
 .latest-posts-main-section .latest-posts .large-content .large-minor .opinion-sub-info .meta-share {
   position: absolute;
   left: -5px;
-  bottom: -25px;
+  bottom: -12px;
 }
 .latest-posts-main-section .latest-posts .large-content .large-minor .opinion-sub-info .meta-share .post-numbers i {
   color: #646464;
@@ -178,7 +182,7 @@ a {
 .more-content-wrapper .just-in-small .post-info .post-title p {
   height: 65px;
   overflow: hidden;
-  font-size: 18px;
+  font-size: 16px;
   color: #646464;
   font-weight: 100;
 }
@@ -207,7 +211,7 @@ a {
 .just-in-small .post-info .post-title p {
   height: 65px;
   overflow: hidden;
-  font-size: 18px;
+  font-size: 16px;
   color: #646464;
   font-weight: 100;
 }
