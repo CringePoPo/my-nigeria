@@ -308,6 +308,25 @@ a {
   display: none;
 }
 
+.extra-content-right .business .time {
+  background-color: #04a9e9 !important;
+}
+.extra-content-right .sports .time {
+  background-color: #ff0001 !important;
+}
+.extra-content-right .africa .time {
+  background-color: #fdbc0a !important;
+}
+.extra-content-right .wall .time {
+  background-color: #f95913 !important;
+}
+.extra-content-right .country .time {
+  background-color: #c7ab8c !important;
+}
+.extra-content-right .entertainment .time {
+  background-color: #963A8C !important;
+}
+
 .more {
   margin: 15px 0;
 }
