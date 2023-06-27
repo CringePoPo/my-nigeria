@@ -85,7 +85,7 @@ a {
 .latest-posts-main-section .latest-posts .large-content .large-main-info {
   position: absolute;
   bottom: 0;
-  left: 20px;
+  left: 5px;
   z-index: 1;
   padding: 10px;
 }
@@ -108,10 +108,13 @@ a {
   display: flex;
   gap: 15px;
 }
-.latest-posts-main-section .latest-posts .large-content .large-minor > div {
+.latest-posts-main-section .latest-posts .large-content .large-minor > a {
   width: 201.6px;
   height: 207px;
   background-color: #ffffff;
+}
+.latest-posts-main-section .latest-posts .large-content .large-minor .opinion-sub {
+  width: 173.33px;
 }
 .latest-posts-main-section .latest-posts .large-content .large-minor .opinion-sub-img img {
   height: 105px;
