@@ -338,6 +338,7 @@ a {
   width: 213.75px;
   height: 62px;
   gap: 10px;
+  background-color: #ffffff;
 }
 .e-more-content .content-img img {
   width: 100px;
@@ -345,11 +346,10 @@ a {
 }
 .e-more-content .content--info {
   overflow: hidden;
-  height: 50px;
+  padding: 5px 5px 5px 0;
 }
 .e-more-content .content--info p {
   font-weight: 400;
-  font-size: 14px;
   font-size: 12px;
   line-height: 1.5;
 }
