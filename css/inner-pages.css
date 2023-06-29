@@ -109,11 +109,8 @@ a {
   gap: 15px;
 }
 .latest-posts-main-section .latest-posts .large-content .large-minor > a {
-  width: 201.6px;
   height: 207px;
   background-color: #ffffff;
-}
-.latest-posts-main-section .latest-posts .large-content .large-minor .opinion-sub {
   width: 173.33px;
 }
 .latest-posts-main-section .latest-posts .large-content .large-minor .opinion-sub-img img {
@@ -293,6 +290,7 @@ a {
   color: #fff;
   font-size: 10px;
   text-align: center;
+  font-weight: 400;
 }
 .more-content-wrapper .extra-content-right #load_headlines li p {
   margin-bottom: 0;
