@@ -113,6 +113,9 @@ a {
   background-color: #ffffff;
   width: 173.33px;
 }
+.latest-posts-main-section .latest-posts .large-content .large-minor .opinion-sub-img {
+  height: 105px;
+}
 .latest-posts-main-section .latest-posts .large-content .large-minor .opinion-sub-img img {
   height: 105px;
 }
@@ -126,7 +129,8 @@ a {
 .latest-posts-main-section .latest-posts .large-content .large-minor .opinion-sub-info .opinion-title h2 {
   font-size: 15px;
   color: #646464;
-  height: 55px;
+  height: 39px;
+  margin-bottom: 15px;
   overflow: hidden;
   font-weight: 400;
 }
@@ -169,7 +173,7 @@ a {
 }
 .latest-posts-main-section .latest-posts .sub-section .latest-wrapper .just-in-small .post-info .post-title h3 {
   font-size: 14px;
-  height: 67px;
+  height: 52px;
   overflow: hidden;
   color: #646464;
   font-weight: 400;
